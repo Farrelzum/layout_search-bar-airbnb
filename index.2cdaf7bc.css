@@ -1,0 +1,117 @@
+@font-face {
+  font-family: Avenir;
+  src: url("Avenir-Book.21abf061.ttf");
+  font-weight: 300;
+}
+
+.search {
+  margin-top: 20px;
+  position: relative;
+}
+
+.search-bar_big {
+  border: 1px solid #e1e7ed;
+  border-radius: 4px;
+  height: 68px;
+  display: flex;
+  position: relative;
+  box-shadow: 0 1px 8px #3d4e611a;
+}
+
+.search-bar_big:hover {
+  box-shadow: 0 3px 8px #3d4e6133;
+}
+
+.search-bar_big:after {
+  content: "";
+  background-image: url("Search.f4d21c8a.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  top: 24px;
+  left: 25px;
+}
+
+.search-bar_big__form {
+  border: none;
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  position: relative;
+  left: 60px;
+}
+
+.search-bar_big__form:focus {
+  background: linear-gradient(#fff 0%, #f6f6f7 100%);
+  max-height: 22px;
+  margin-top: 25px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.search-bar_big__form:placeholder-shown {
+  max-height: 22px;
+  margin-top: 21px;
+}
+
+.search-bar-big__form::placeholder {
+  font-size: 25px;
+}
+
+input.search-bar_big__form {
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+.search-bar_small {
+  border: 1px solid #e1e7ed;
+  border-radius: 4px;
+  height: 40px;
+  margin-top: 8px;
+  display: flex;
+  position: relative;
+  box-shadow: 0 1px 8px #3d4e611a;
+}
+
+.search-bar_small:hover {
+  box-shadow: 0 3px 8px #3d4e6133;
+}
+
+.search-bar_small:after {
+  content: "";
+  background-image: url("Search.f4d21c8a.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  top: 14px;
+  left: 12px;
+}
+
+.search-bar_small__form {
+  border: none;
+  font-family: Avenir, sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  position: relative;
+  left: 31px;
+}
+
+.search-bar_small__form:focus {
+  background: linear-gradient(#fff 0%, #f6f6f7 100%);
+  max-height: 22px;
+  margin-top: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+input.search-bar_small__form {
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
